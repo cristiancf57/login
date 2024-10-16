@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="form-container">
+  <h2>Bienvenido, {{ username }}!</h2>
+  <a href="{{ url_for('vaciar') }}">Cerrar sesión</a>
+{% endblock %}
